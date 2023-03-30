@@ -2,12 +2,10 @@ mijn_lijst = ["wafels", "Softijs", "Schepijs", "Pannekoeken"]
 mijn_lijst.append("Muffins")
 for item in mijn_lijst:
     print(f"Wij verkopen ", item)
-print("-------------------------------------------------")
 alfabet = ["A", "B", "D", "E", "F"]
 print(alfabet)
 alfabet.insert(2, "C")
 print(alfabet)
-print("-------------------------------------------------")
 fruit = ["appel", "banaan", "kers"]
 print("voor pop(1)", fruit)
 fruit.pop(1)
