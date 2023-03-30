@@ -2,6 +2,7 @@ mijn_lijst = ["wafels", "Softijs", "Schepijs", "Pannekoeken"]
 mijn_lijst.append("Muffins")
 for item in mijn_lijst:
     print(f"Wij verkopen ", item)
+    
 alfabet = ["A", "B", "D", "E", "F"]
 print(alfabet)
 alfabet.insert(2, "C")
