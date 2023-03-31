@@ -3,8 +3,8 @@ mijn_dictonary = {
     "Geboortedatum" : "31-maart-1939",
     "Registratienummer" : "AA18891"
 }
-mijn_dictonary["Achternaam"] = "de Vries"
+mijn_dictionary.pop("Geboortedatum")
 print()
-for k, v in mijn_dictonary.items():
+for k, v in mijn_dictionary.items():
     print(k, v)
-print(len(mijn_dictonary))
+    
