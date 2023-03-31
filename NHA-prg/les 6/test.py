@@ -1,10 +1,41 @@
-mijn_dictionary = {
+# Les 6 vraag 1
+
+auto_merken = ["Toyota", "Mazda", "Volkswagen", "Jeep"]
+print("Lijst van automerken:", auto_merken)
+auto_merken.append("Suzuki")
+print("Merk toegevoegd:", auto_merken)
+
+# Les 6 vraag 2
+
+dictionary = {
     "Voornaam" : "Harry",
-    "Geboortedatum" : "31-maart-1939",
-    "Registratienummer" : "AA18891"
+    "Achternaam" : "van Winkel",
+    "Geboortedatum" : "27-3-1939"
+
 }
-mijn_dictionary.pop("Geboortedatum")
-print()
-for k, v in mijn_dictionary.items():
-    print(k, v)
-    
+
+print(dictionary)
+
+print(dictionary["Voornaam"])
+
+dictionary["Voornaam"] = "Henrikus"
+
+print(dictionary)
+
+# Les 6 vraag 3
+
+a = 10
+b = 2
+c = a / b
+
+a = 2
+b = 3
+c = a ** b
+
+a = 4
+b = 5
+c = a == b
+
+
+
+
