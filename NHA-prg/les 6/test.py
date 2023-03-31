@@ -1,4 +1,4 @@
-mijn_dictonary = {
+mijn_dictionary = {
     "Voornaam" : "Harry",
     "Geboortedatum" : "31-maart-1939",
     "Registratienummer" : "AA18891"
