@@ -1,13 +1,10 @@
-mijn_dictionary = {
-    "product" : "softijs",
-    "aantal" : 101,
-    "smaak" : "vanille"
+mijn_dictonary = {
+    "Voornaam" : "Harry",
+    "Geboortedatum" : "31-maart-1939",
+    "Registratienummer" : "AA18891"
 }
-keys = mijn_dictionary.keys()
-print(keys)
-values = mijn_dictionary.values()
-print(values)
-print(mijn_dictionary)
-print("--------------------")
-for k, v in mijn_dictionary.items():
-    print(k ,v)
+mijn_dictonary["Achternaam"] = "de Vries"
+print()
+for k, v in mijn_dictonary.items():
+    print(k, v)
+print(len(mijn_dictonary))
